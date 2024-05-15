@@ -1,0 +1,77 @@
+/* Write your CSS here */
+.classContainer {
+  background-image: linear-gradient(#fdc7d4, #8b5cf6);
+  padding: 80px;
+}
+
+.backgroundContainer {
+  background-color: white;
+  border-radius: 20px;
+}
+
+.addDetailesContainer {
+  display: flex;
+  padding: 50px;
+  justify-content: space-around;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.title-input {
+  height: 30px;
+  width: 90px;
+}
+
+.date-input {
+  height: 30px;
+  width: 90px;
+}
+
+.img1 {
+  height: 30%;
+}
+.addButon {
+  background-color: #8b5cf6;
+  color: white;
+  border: 0px;
+  font-weight: bold;
+  padding: 5px;
+  margin-top: 10px;
+}
+.line {
+  width: 90%;
+}
+
+.appitment-lists {
+  display: flex;
+  flex-direction: row;
+  margin-right: 15px;
+}
+.bottomContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.startButon {
+  background-color: transparent;
+  border: 1px solid #8b5cf6;
+  color: #8b5cf6;
+  margin-top: 10px;
+  width: 70px;
+  border-radius: 15px;
+  height: 30px;
+}
+
+.filter-field {
+  color: #ffffff;
+  background-color: #9897f0;
+}
+
+.filter-empty {
+  color: #9897f0;
+  background-color: white;
+  border: 1px solid #9897f0;
+}
